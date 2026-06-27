@@ -16,9 +16,9 @@ spec:
     spec:
       containers:
         - name: the-app-hub
-          image: nginxdemo/hello:latest # temporary placeholder
+          image: nahim2003/the-app-hub:latest
           ports:
-            - containerPort: 80 # change from 3000 to 80
+            - containerPort: 3000
 
 ---
 apiVersion: v1
@@ -37,7 +37,7 @@ spec:
   - name: app-port
     protocol: TCP
     port: 8086
-    targetPort: 80 # was 3000
+    targetPort: 3000
 
 ---
 
