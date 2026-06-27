@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: the-app-hub
-          image: nginxdemo/hello:latest
+          image: nginx:latest
           ports:
             - containerPort: 80
 
