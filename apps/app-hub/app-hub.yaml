@@ -60,7 +60,8 @@ spec:
                 name: the-app-hub
                 port:
                   number: 80
-tls:
-- hosts:
-  - the-app-hub.lab.nahim.co.uk
-  secretName: the-app-hub-ingress-tls
+  tls:                            
+  - hosts:
+    - the-app-hub.lab.nahim.co.uk
+    secretName: the-app-hub-ingress-tls
+  
