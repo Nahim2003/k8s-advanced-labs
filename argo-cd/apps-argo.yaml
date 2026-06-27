@@ -8,8 +8,8 @@ spec:
 
   source:
     repoURL: https://github.com/Nahim2003/k8s-advanced-labs.git
-    targetRevision: HEAD
-    path: app-hub
+    targetRevision: main
+    path: apps/app-hub
 
   destination:
     server: https://kubernetes.default.svc
